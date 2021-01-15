@@ -1,7 +1,1 @@
-{
-    id: "BACKEND",
-    name: "Genovese.js",
-    ingredienti: ["Ram", "Cpu", "Motherboard","Web","Random","lol"],
-    fotografia: "https://i.pinimg.com/564x/4a/84/4e/4a844efc2bf873c3402d4bb0d6cb7b0e.jpg",
-    prezzo: 3,
-}
+{id:"BACKEND",name:"Genovese.js",ingredienti:["Ram","Cpu","Motherboard","Web","Random","lol"],fotografia:"https://i.pinimg.com/564x/4a/84/4e/4a844efc2bf873c3402d4bb0d6cb7b0e.jpg",prezzo:3,}
