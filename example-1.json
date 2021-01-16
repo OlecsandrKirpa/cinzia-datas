@@ -1,0 +1,141 @@
+{
+    "menu": {
+        "categories": [
+            {
+                "caffetteria": [
+                    {
+                        "id": 1,
+                        "name": "Caffe espresso",
+                        "price": 0.8,
+                        "ingredients": [
+                            "Caffe"
+                        ],
+                        "allergens": [
+                            "Caffeina"
+                        ],
+                        "image": "url.com"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Caffe macchiato",
+                        "price": 1.20,
+                        "ingredients": [
+                            "Caffe",
+                            "Latte",
+                            "Amore"
+                        ],
+                        "allergens": [
+                            "Caffeina",
+                            "Lattosio"
+                        ],
+                        "image": "url.com"
+                    }
+                ],
+                "bibite": [
+                    {
+                        "id": 3,
+                        "name": "Acqua",
+                        "price": 0.50,
+                        "ingredients": [
+                            "Water"
+                        ],
+                        "allergens": [
+                            "Null"
+                        ],
+                        "image": "url.com/acqua.jpg"
+                    }
+                ],
+                "no_glutine/lattosio": [{
+                    "id": 4,
+                    "name": "Frollini Galbusera",
+                    "price": 0.80,
+                    "ingredients": [
+                        "Null"
+                    ],
+                    "allergens": [
+                        "Null"
+                    ],
+                    "image": "url.com/frollinigalbuser.jpg"
+                }],
+                "snacks": [
+                    {
+                        "id": 5,
+                        "name": "Ringo",
+                        "price": 1.00,
+                        "ingredients": [
+                            "Null"
+                        ],
+                        "allergens": [
+                            "Gluten"
+                        ],
+                        "image": "url.com/ringo.jpg"
+                    }
+                ],
+                "food": [
+                    {
+                        "genovesi": [
+                            {
+                                "id": 6,
+                                "name": "Genovese Piccante",
+                                "price": 2.00,
+                                "ingredients": [
+                                    "Bread","Ham","Spicy"
+                                ],
+                                "allergens": [
+                                    "Gluten"
+                                ],
+                                "image": "url.com/genovesepiccante.jpg",
+                                "description":"Descrizione Genovese Piccante"
+                            },
+                            {
+                                "id": 7,
+                                "name": "Genovese Funghi",
+                                "price": 2.00,
+                                "ingredients": [
+                                    "Bread,Mushrooms"
+                                ],
+                                "allergens": [
+                                    "Gluten"
+                                ],
+                                "image": "url.com/genovesefunghi.jpg",
+                                "description":"Descrizione Genovese Funghi"
+                            }
+                        ],
+                        "pizze": [
+                            {
+                                "id": 8,
+                                "name": "Pizza triangolo",
+                                "price": 1.00,
+                                "ingredients": [
+                                    "Bread,Cheese,Tomato"
+                                ],
+                                "allergens": [
+                                    "Gluten"
+                                ],
+                                "image": "url.com/pizzatriangolo.jpg",
+                                "description":"Descrizione Pizza triangolo"
+                            }
+                        ],
+                        "altro": [
+                            
+                        ]
+                    }
+                ],
+                "piatti_freddi": [
+                    {
+                        "id": 10,
+                        "name": "Insalatona mista",
+                        "price": 4.50,
+                        "ingredients": [
+                            "Salad,Cheese,Tomato"
+                        ],
+                        "allergens": [
+                            "Null"
+                        ],
+                        "image": "url.com/pizzatriangolo.jpg"
+                    }
+                ]
+            }
+        ]
+    }
+}
