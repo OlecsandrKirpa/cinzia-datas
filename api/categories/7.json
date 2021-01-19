@@ -1,0 +1,14 @@
+{
+    "id": 9,
+    "price": 10,
+    "name": "Goleador",
+    "description": "Originali caramelle per chi non ha soldi",
+    "image": "assets/img/burger.svg",
+    "category": {
+        "id": 7,
+        "name": "caramelle",
+        "description": "Un assortimento di dolcezze (confezionate)"
+    },
+    "ingredients": [],
+    "allergens": []
+}

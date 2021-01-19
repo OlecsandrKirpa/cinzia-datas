@@ -1,0 +1,22 @@
+[{
+    "id": 1,
+    "price": 12.98,
+    "name": "Fanta",
+    "description": "Una Fanta dissetante",
+    "image": "assets/img/burger.svg",
+    "category": {
+        "id": 4,
+        "name": "bibite",
+        "description": "Bibite rinfrescanti"
+    },
+    "ingredients": [{
+        "id": 2,
+        "name": "pomodori",
+        "description": "vegetali",
+        "isVegan": true
+    }],
+    "allergens": [{
+        "id": 1,
+        "name": "Latte e derivati"
+    }]
+}, ]

@@ -1,0 +1,29 @@
+[{
+        "id": 7,
+        "price": 103.20,
+        "name": "Caviale nero",
+        "description": "Il gusto originale della russia",
+        "image": "assets/img/burger.svg",
+        "category": {
+            "id": 6,
+            "name": "dolci",
+            "description": "Un assortimento di dolcezze"
+        },
+        "ingredients": [],
+        "allergens": []
+    },
+    {
+        "id": 8,
+        "price": 77.52,
+        "name": "Biscotto ricoperto",
+        "description": "La pastina preferita da Napoleone",
+        "image": "assets/img/burger.svg",
+        "category": {
+            "id": 6,
+            "name": "dolci",
+            "description": "Un assortimento di dolcezze"
+        },
+        "ingredients": [],
+        "allergens": []
+    },
+]

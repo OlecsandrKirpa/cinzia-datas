@@ -1,0 +1,151 @@
+[{
+        "id": 1,
+        "price": 12.98,
+        "name": "Fanta",
+        "description": "Una Fanta dissetante",
+        "image": "assets/img/burger.svg",
+        "category": {
+            "id": 4,
+            "name": "bibite",
+            "description": "Bibite rinfrescanti"
+        },
+        "ingredients": [{
+            "id": 2,
+            "name": "pomodori",
+            "description": "vegetali",
+            "isVegan": true
+        }],
+        "allergens": [{
+            "id": 1,
+            "name": "Latte e derivati"
+        }]
+    },
+    {
+        "id": 2,
+        "price": 12.98,
+        "name": "Panino con lo Speck",
+        "description": "Panino con il jack prodotti tipici del Tirolo",
+        "image": "assets/img/burger.svg",
+        "category": {
+            "id": 1,
+            "name": "panini",
+            "description": "Panini molto buoni!"
+        },
+        "ingredients": [{
+            "id": 2,
+            "name": "pomodori",
+            "description": "vegetali",
+            "isVegan": true
+        }],
+        "allergens": [{
+            "id": 1,
+            "name": "Latte e derivati"
+        }]
+    },
+    {
+        "id": 3,
+        "price": 2.50,
+        "name": "Panino senza lo Speck",
+        "description": "Panino con prodotti tipici della Tiroide",
+        "image": "assets/img/burger.svg",
+        "category": {
+            "id": 1,
+            "name": "panini",
+            "description": "Panini molto poco buoni!"
+        },
+        "ingredients": [{
+            "id": 2,
+            "name": "pomodori",
+            "description": "vegetali",
+            "isVegan": true
+        }],
+        "allergens": [{
+            "id": 1,
+            "name": "Latte e derivati"
+        }]
+    },
+    {
+        "id": 4,
+        "price": 5.50,
+        "name": "Bibita senza lo Speck",
+        "description": "Bibita con prodotti",
+        "image": "assets/img/burger.svg",
+        "category": {
+            "id": 3,
+            "name": "bibite",
+            "description": "Il gusto originale della coca-loca."
+        },
+        "ingredients": [],
+        "allergens": []
+    },
+    {
+        "id": 5,
+        "price": 1.20,
+        "name": "Caffè Nero",
+        "description": "Il gusto originale italiano",
+        "image": "assets/img/burger.svg",
+        "category": {
+            "id": 5,
+            "name": "caffe",
+            "description": "Estratto della bacca di caffe"
+        },
+        "ingredients": [],
+        "allergens": []
+    },
+    {
+        "id": 5,
+        "price": 3.20,
+        "name": "Caffè bianco",
+        "description": "Gli piace lo yogurt",
+        "image": "assets/img/burger.svg",
+        "category": {
+            "id": 5,
+            "name": "caffe",
+            "description": "Estratto della bacca di caffe"
+        },
+        "ingredients": [],
+        "allergens": []
+    },
+    {
+        "id": 7,
+        "price": 103.20,
+        "name": "Caviale nero",
+        "description": "Il gusto originale della russia",
+        "image": "assets/img/burger.svg",
+        "category": {
+            "id": 6,
+            "name": "dolci",
+            "description": "Un assortimento di dolcezze"
+        },
+        "ingredients": [],
+        "allergens": []
+    },
+    {
+        "id": 8,
+        "price": 77.52,
+        "name": "Biscotto ricoperto",
+        "description": "La pastina preferita da Napoleone",
+        "image": "assets/img/burger.svg",
+        "category": {
+            "id": 6,
+            "name": "dolci",
+            "description": "Un assortimento di dolcezze"
+        },
+        "ingredients": [],
+        "allergens": []
+    },
+    {
+        "id": 9,
+        "price": 10,
+        "name": "Goleador",
+        "description": "Originali caramelle per chi non ha soldi",
+        "image": "assets/img/burger.svg",
+        "category": {
+            "id": 7,
+            "name": "caramelle",
+            "description": "Un assortimento di dolcezze (confezionate)"
+        },
+        "ingredients": [],
+        "allergens": []
+    }
+]

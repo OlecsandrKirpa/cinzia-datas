@@ -1,0 +1,29 @@
+[{
+        "id": 5,
+        "price": 1.20,
+        "name": "Caffè Nero",
+        "description": "Il gusto originale italiano",
+        "image": "assets/img/burger.svg",
+        "category": {
+            "id": 5,
+            "name": "caffe",
+            "description": "Estratto della bacca di caffe"
+        },
+        "ingredients": [],
+        "allergens": []
+    },
+    {
+        "id": 5,
+        "price": 3.20,
+        "name": "Caffè bianco",
+        "description": "Gli piace lo yogurt",
+        "image": "assets/img/burger.svg",
+        "category": {
+            "id": 5,
+            "name": "caffe",
+            "description": "Estratto della bacca di caffe"
+        },
+        "ingredients": [],
+        "allergens": []
+    },
+]

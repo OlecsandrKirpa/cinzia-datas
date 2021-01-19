@@ -1,0 +1,29 @@
+[{
+        "id": 1,
+        "name": "panini"
+    },
+    {
+        "id": 2,
+        "name": "genovesi"
+    },
+    {
+        "id": 3,
+        "name": "pizze"
+    },
+    {
+        "id": 4,
+        "name": "bibite"
+    },
+    {
+        "id": 5,
+        "name": "caffe"
+    },
+    {
+        "id": 6,
+        "name": "dolci"
+    },
+    {
+        "id": 7,
+        "name": "caramelle"
+    }
+]

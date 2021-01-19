@@ -1,0 +1,45 @@
+[{
+        "id": 2,
+        "price": 12.98,
+        "name": "Panino con lo Speck",
+        "description": "Panino con il jack prodotti tipici del Tirolo",
+        "image": "assets/img/burger.svg",
+        "category": {
+            "id": 1,
+            "name": "panini",
+            "description": "Panini molto buoni!"
+        },
+        "ingredients": [{
+            "id": 2,
+            "name": "pomodori",
+            "description": "vegetali",
+            "isVegan": true
+        }],
+        "allergens": [{
+            "id": 1,
+            "name": "Latte e derivati"
+        }]
+    },
+    {
+        "id": 3,
+        "price": 2.50,
+        "name": "Panino senza lo Speck",
+        "description": "Panino con prodotti tipici della Tiroide",
+        "image": "assets/img/burger.svg",
+        "category": {
+            "id": 1,
+            "name": "panini",
+            "description": "Panini molto poco buoni!"
+        },
+        "ingredients": [{
+            "id": 2,
+            "name": "pomodori",
+            "description": "vegetali",
+            "isVegan": true
+        }],
+        "allergens": [{
+            "id": 1,
+            "name": "Latte e derivati"
+        }]
+    }
+]

@@ -1,0 +1,20 @@
+ - La specificazione dei dettagli di ciascuna categoria in ognuno dei prodotti può portare
+    a delle incongruenze in fase di testing dato che i file sono scritti a mano.
+    Probabilmente questo problema verrà quando sarà implementata la logica del server
+    
+    POSSIBILE SOLUZIONE ↓
+    Più che ricavare tutte le categorie dall'unica richiesta che si fa all'endpoint /api/menu
+        si potrebbe fare una richiesta all'endpoint /api/categories al caricamento della
+        pagina e con i risultati popolare un array. Nelle sezioni di ciascun prodotto lasciare
+        solamente un riferimento alla categoria (ad esempio l'id) attraverso il quale recuperare
+        i dati precedentemente immagazzinati nell'array.  
+     
+ - È meglio, dal momento in cui si ha una pessima connessione, avere tante richieste da pochi 
+    dati o poche richieste che prendono tanti dati?
+
+ - Creiamo anche le api delle categorie per nome (/api/categories/{categoryName}) o solo per id?
+    Sarebbero file identici nominati con il nome della categoria piuttosto che l'id.
+    
+ - Ragionare sull'efficienza dei dati : se si fa una richiesta a categories.json e poi a tutti gli 
+    elementi (1.json , 2.json...) avere l'oggetto categories con i dati delle categorie, dal momento 
+    in cui sono arrivato a quel file che già conosco le categorie.
